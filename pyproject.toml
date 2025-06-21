@@ -70,4 +70,5 @@ include = ["fake_api_server_plugin/mcp"]
 include = ["fake_api_server_plugin/mcp"]
 
 [tool.hatch.build.targets.wheel.sources]
-"fake_api_server_plugin/mcp" = "fake_api_server/mcp"
+"fake_api_server" = "fake_api_server_plugin"
+"fake_api_server/mcp" = "fake_api_server_plugin/mcp"

@@ -12,7 +12,7 @@ on:
       - ".github/workflows/rw_build_and_test.yaml"
       - ".github/workflows/rw_poetry_run_test_with_multi_py_versions.yaml"
 #     For source code and test
-      - "fake_api_server/**/*.py"
+      - "fake_api_server_plugin/**/*.py"
       - "!**/__pkg_info__.py"
       - "test/**/*.py"
 #     For shell script for CI
@@ -37,7 +37,7 @@ on:
       - ".github/workflows/rw_build_and_test.yaml"
       - ".github/workflows/rw_poetry_run_test_with_multi_py_versions.yaml"
 #     For source code and test
-      - "fake_api_server/**/*.py"
+      - "fake_api_server_plugin/**/*.py"
       - "!**/__pkg_info__.py"
       - "test/**/*.py"
 #     For shell script for CI

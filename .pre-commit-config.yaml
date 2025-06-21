@@ -52,7 +52,7 @@ repos:
   rev: v1.15.0
   hooks:
     - id: mypy
-      package: <your lib src dir>,test
+      package: fake_api_server_plugin/mcp/,test
 #      exclude: ^test/unit_test.{1,64}.py
       args:
 #        - --strict

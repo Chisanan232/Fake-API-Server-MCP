@@ -13,7 +13,7 @@
 #######################################
 # Source Code
 #######################################
-/src/                                 @<your username>
+/fake_api_server_plugin/              @<your username>
 *.py                                  @<your username>
 
 #######################################

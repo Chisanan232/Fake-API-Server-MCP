@@ -7,7 +7,7 @@ name = "fake-api-server-mcp"
 version = "0.0.0"
 description = "🦾 A strong MCP server for Fake-API-Server."
 authors = [{ name = "Chisanan232", email = "chi10211201@cycu.org.tw" }]
-requires-python = ">=3.12,<4.0"
+requires-python = ">=3.12,<=3.14"
 readme = "README.md"
 license = { file = "LICENSE" }
 keywords = [

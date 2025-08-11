@@ -2,7 +2,7 @@ exclude: '.github/|docs/'
 
 repos:
 - repo: https://github.com/pre-commit/pre-commit-hooks
-  rev: v5.0.0
+  rev: v6.0.0
   hooks:
     - id: check-yaml
       args: ['--unsafe']
@@ -49,7 +49,7 @@ repos:
       # HTTPSConnectionPool(host='pypi.org', port=443): Max retries exceeded with url ...
 #    - id: poetry-lock
 - repo: https://github.com/pre-commit/mirrors-mypy
-  rev: v1.17.0
+  rev: v1.17.1
   hooks:
     - id: mypy
       package: fake_api_server_plugin/mcp/,test
